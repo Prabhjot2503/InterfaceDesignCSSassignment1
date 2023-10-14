@@ -1,0 +1,220 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f4f4f4;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #f4f4f4;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
+
+/* Homepage styles */
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  margin: 20px 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.cta {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+
+/* About Page styles */
+
+.about-intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.about-pic {
+  border-radius: 50%;
+  width: 180px;
+  margin: 20px 0;
+}
+
+.education-background,
+.interests,
+.skills {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.skills {
+  border-bottom: none;
+  /* Remove border for the last section */
+}
+
+
+/* Projects Page styles */
+
+.projects-header {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects-list {
+  padding: 20px;
+}
+
+.projects-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-list li {
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  position: relative;
+}
+
+.projects-list h2 {
+  margin-top: 0;
+}
+
+.projects-list a {
+  color: #333;
+  text-decoration: none;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  transition: background-color 0.3s;
+}
+
+.projects-list a:hover {
+  background-color: #e5e5e5;
+}
+
+/* Contact Page styles */
+
+.contact-intro {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  padding: 20px;
+}
+
+.contact-details address {
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.contact-details .code {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.contact-details a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-details a:hover {
+  color: #555;
+}
